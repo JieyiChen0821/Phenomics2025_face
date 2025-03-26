@@ -175,7 +175,7 @@ for f in resize_pics:
         fo.write(f + '\t0\t0\t0\t360\n')
 fo.close()
 
-#%% GPA 这步漏了
+#%% GPA 
 avg=np.matrix(np.genfromtxt('support_files\\point106avgface_all.txt',delimiter='\t'))
 files=glob.glob(os.path.join('examples\\points\\','*.csv'))
 res=[]
