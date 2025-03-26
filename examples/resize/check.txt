@@ -1,0 +1,2 @@
+filename	face_num	width	height	roll_angle
+examples\resize\step1-input-demo.jpg	1	466	466	4.4083285
